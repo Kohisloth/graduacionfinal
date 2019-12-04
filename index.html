@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <title>Graduacion</title>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/cintillo-web.png" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="NavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="NavDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="far fa-user-circle"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="NavDropdown">
+                        <a class="dropdown-item" href="login.php">
+                            <i class="fas fa-sign-in-alt"></i>
+                            Iniciar Sesion
+                        </a>
+                        <a class="dropdown-item" href="registro.php">
+                            <i class="fas fa-user-plus"></i>
+                            Registrarse
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="row">
+            <section class="col-md-6 col-sm-12" id="Info">
+                <div class="jumbotron">
+                    <h1 class="display-4">Bienvenidos</h1>
+                    <p class="lead">Ser bienvenidos a la pagina de invitacion, de la graduacion del grupo 4B.</p>
+                    <hr class="my-2">
+                    <h1 class="display-4">Precios</h1>
+                    <p class="lead">Precio por mesa:
+                        <ul>
+                            <ol>Estandar: $2000</ol>
+                            <ol>Premium: $2500</ol>
+                            <ol>Precio por cada silla extra: $150</ol>
+                        </ul>
+                    </p>
+                    <hr class="my-2">
+                    <a href="registro.php" class="btn btn-dark" type="button">Registrarse</a>
+                </div>
+            </section>
+            <section class="col-md-6 col-sm-12">
+                <div class="jumbotron">
+                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="2000">
+                                <img src="img/graduacion.jpg" class="d-block w-100 image-responsive" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="img/graduacion1.jpg" class="d-block w-100 image-responsive" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="img/graduacion2.jpg" class="d-block w-100 image-responsive" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+</body>
+</html>
